@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
+    <h1 className="tw-text-2xl tw-font-bold tw-underline">
       Hello world!
     </h1>
   );
