@@ -1,9 +1,14 @@
-
+import { Routes, Route } from "react-router-dom";
+import Home from './components/Home'
+import About from './components/About'
 function App() {
   return (
-    <h1 className="tw-text-2xl tw-font-bold tw-underline">
-      Hello world!
-    </h1>
+    <div className="tw-container tw-mx-auto">
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </div>
   );
 }
 
